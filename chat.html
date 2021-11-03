@@ -40,9 +40,9 @@
                     <!-- <li><a class="register-bg" href="#">註冊</a></li> -->
                     <li class="drop-down"><a class="register-bg" href="">功能選單</a>
                         <ul>
-                            <li><a href="chat.html">搜尋並預約服務</a></li>
-                            <li><a href="notice.html">紀錄查詢</a></li>
-                            <li><a href="sch-ser.html">報價櫃台</a></li>
+                            <li><a href="#">搜尋並預約服務</a></li>
+                            <li><a href="#">紀錄查詢</a></li>
+                            <li><a href="#">報價櫃台</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -57,9 +57,9 @@
                 <div class="toggle-btn" data-toggle="collapse" data-target="#menu-content">所有聯絡人</div>
                 <div class="menu-list">
                     <ul id="menu-content" class="menu-content collapse out">
-                        <li class="active"><a href="#">系統通知</a></li>
-                        <li> <a href="#">吳怡潔</a></li>
-                        <li> <a href="#">政大專業照顧機器人</a></li>
+                        <li><a href="#">系統通知</a></li>
+                        <li class="active"><a href="#">吳怡潔</a></li>
+                        <li><a href="#">政大專業照顧機器人</a></li>
                     </ul>
                 </div>
             </div>
@@ -69,14 +69,26 @@
                     <div class='chat-wrapper'>
                         <div class='chat-message'>
 
+                            <div class='chat-message chat-message-sender'>
+                                <div class='chat-message-wrapper'>
+                                    <div class='chat-message-content'>
+                                        <p>請問...我們家阿公有點番，可以對他溫柔一點嗎？</p>
+                                    </div>
+
+                                    <div class='text-right chat-details'>
+                                        <span class='font-size-small'>2021/08/11 20:20</span>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class='chat-message chat-message-recipient'>
                                 <img class='chat-image chat-image-default' src='img/photo.png' />
 
                                 <div class='chat-message-wrapper'>
                                     <div class='chat-message-content'>
                                         <p>
-                                            <span>系統通知</span><br>
-                                            <a href="#">吳怡潔向您送出預約要求，按本訊息前往報價。</a>
+                                            <span>吳怡潔</span><br>
+                                            老人家有什麼東西比較不吃的嗎？
                                         </p>
                                     </div>
 
@@ -86,19 +98,14 @@
                                 </div>
                             </div>
 
-                            <div class='chat-message chat-message-recipient'>
-                                <img class='chat-image chat-image-default' src='img/photo.png' />
-
+                            <div class='chat-message chat-message-sender'>
                                 <div class='chat-message-wrapper'>
                                     <div class='chat-message-content'>
-                                        <p>
-                                            <span>系統通知</span><br>
-                                            <a href="#">您已向吳怡潔送出預約報價，按本訊息查看預約進度。</a>
-                                        </p>
+                                        <p>青椒、苦瓜、芭樂、百香果、花生、腰果</p>
                                     </div>
 
-                                    <div class='chat-details'>
-                                        <span class='font-size-small'>22021/08/11 20:33</span>
+                                    <div class='text-right chat-details'>
+                                        <span class='font-size-small'>2021/08/11 20:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -109,13 +116,25 @@
                                 <div class='chat-message-wrapper'>
                                     <div class='chat-message-content'>
                                         <p>
-                                            <span>系統通知</span><br>
-                                            <a href="#">吳怡潔同意此預約報價並已付款，按本訊息查看訂單、使用簽到退系統。</a>
+                                            <span>吳怡潔</span><br>
+                                            好好好
                                         </p>
                                     </div>
 
                                     <div class='chat-details'>
-                                        <span class='font-size-small'>2021/08/11 20:43</span>
+                                        <span class='font-size-small'>2021/08/11 20:23</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class='chat-message chat-message-sender'>
+                                <div class='chat-message-wrapper'>
+                                    <div class='chat-message-content'>
+                                        <p>青椒、苦瓜、芭樂、百香果、花生、腰果</p>
+                                    </div>
+
+                                    <div class='text-right chat-details'>
+                                        <span class='font-size-small'>2021/08/11 20:20</span>
                                     </div>
                                 </div>
                             </div>
@@ -126,13 +145,13 @@
                                 <div class='chat-message-wrapper'>
                                     <div class='chat-message-content'>
                                         <p>
-                                            <span>系統通知</span><br>
-                                            謝佩璇已取消此筆預約，下次請繼續努力。
+                                            <span>吳怡潔</span><br>
+                                            好好好
                                         </p>
                                     </div>
 
                                     <div class='chat-details'>
-                                        <span class='font-size-small'>2021/08/11 20:53</span>
+                                        <span class='font-size-small'>2021/08/11 20:23</span>
                                     </div>
                                 </div>
                             </div>
@@ -140,10 +159,9 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="ml-lg-3 msger-inputarea msger-dis">
-                    <input type="text" class="msger-input msger-dis" disabled>
-                    <button type="submit" class="btn dis">送出</button>
+                <div class="ml-lg-3 msger-inputarea">
+                    <input type="text" class="msger-input" placeholder="請輸入...">
+                    <button type="submit" class="btn btn_b">送出</button>
                 </div>
             </div>
         </div>
