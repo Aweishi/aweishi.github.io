@@ -41,7 +41,6 @@ section, footer {
 .header.header-scrolled {
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  height: 75px;
   background: #fff;
 }
 
@@ -106,8 +105,13 @@ section, footer {
     max-height: 42px;
   }
   .header .nav-item {
-    margin-right: 2rem;
-    margin-top: -7px;
+    right: 15px;
+    position: absolute;
+    top: 17px;
+  }
+  .header .topTit {
+    left: 42%;
+    position: absolute;
   }
   .container {
     max-width: 720px;
