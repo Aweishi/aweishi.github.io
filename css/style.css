@@ -106,18 +106,19 @@ section, footer {
     margin-top: 14px;
   }
   .header .nav-item {
-    right: 30px;
+    right: 38px;
     position: absolute;
-    top: 20px;
+    top: 12px;
     display: block;
   }
   .header .topTit {
     left: 42%;
     position: absolute;
-    top: 8px;
+    top: 0;
   }
   .container {
     max-width: 720px;
+    position: relative;
   }
 }
 
@@ -203,7 +204,7 @@ section, footer {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 25px;
+  top: 28px;
   z-index: 9998;
   border: 0;
   font-size: 24px;
