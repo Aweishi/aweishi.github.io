@@ -829,7 +829,7 @@ section, footer {
 
 .order .tbody .box .td i {
   color: #cecece;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .order .tbody .box .td i.stroke {
@@ -1222,7 +1222,7 @@ section, footer {
   }
   .p-content .msger-inputarea {
     width: 92%;
-    bottom: 0;
+    bottom: -60px;
     font-size: 14px;
   }
 }
